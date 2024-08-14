@@ -14,7 +14,7 @@ public class LoginController {
 
 	@GetMapping
 	public String view(Model model, LoginForm form) {
-		// TODO
+		// TODO this is new 
 
 		return "login";
 	}
